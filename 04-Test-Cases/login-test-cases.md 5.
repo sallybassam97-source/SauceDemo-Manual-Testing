@@ -278,7 +278,7 @@ The password was displayed as masked characters (dots).
 
 ---
 
-## TC-LOGIN-11 – Login Using a Locked-Out User
+## TC-LOGIN-10 – Login Using a Locked-Out User
 
 | Field | Details |
 |---|---|
