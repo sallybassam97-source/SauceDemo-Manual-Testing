@@ -20,12 +20,11 @@
 | TS-LOGIN-07 | Login with valid username and empty password | Password validation message should be displayed. |
 | TS-LOGIN-08 | Login using a username containing spaces | The application should handle the input correctly and display an appropriate response. |
 | TS-LOGIN-09 | Verify password masking | Password characters should be masked. |
-| TS-LOGIN-10 | Verify login error message | The appropriate error message should be displayed after an unsuccessful login attempt. |
-| TS-LOGIN-11 | Login using locked_out_user with valid password | Login should be prevented and a locked-out error message should be displayed. |
+| TS-LOGIN-10 | Login using locked_out_user with valid password | Login should be prevented and a locked-out error message should be displayed. |
 
 ## Executed Test Scenario
 
-### TS-LOGIN-11
+### TS-LOGIN-10
 
 - **Test Data:** locked_out_user / secret_sauce
 - **Expected Result:** Login should be prevented and an appropriate locked-out error message should be displayed.
