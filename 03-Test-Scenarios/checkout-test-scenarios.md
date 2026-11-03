@@ -23,4 +23,4 @@
 
 ## Notes
 
-These scenarios were identified during the exploration phase. Detailed test execution and actual results will be
+These scenarios were identified during the exploration phase. Detailed test execution and actual results will be documented later in the Test Cases section.
