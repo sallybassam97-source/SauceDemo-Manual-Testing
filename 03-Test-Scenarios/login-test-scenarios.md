@@ -34,4 +34,4 @@
 
 ## Notes
 
-Only TS-LOGIN-11 has been executed and verified at this stage. The remaining scenarios are planned and have not yet been executed.
+Only TS-LOGIN-10 has been executed and verified at this stage. The remaining scenarios are planned and have not yet been executed.
