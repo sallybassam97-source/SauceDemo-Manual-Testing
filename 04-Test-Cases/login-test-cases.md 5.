@@ -217,3 +217,35 @@ The user remained on the Login page.
 
 ### Status
 **Passed**
+
+---
+
+## TC-LOGIN-08 – Login Using a Username Containing Spaces
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC-LOGIN-08 |
+| Scenario ID | TS-LOGIN-08 |
+| Preconditions | User is on the SauceDemo Login page. |
+| Test Data – Username | `standard user` |
+| Test Data – Password | `secret_sauce` |
+
+### Test Steps
+1. Navigate to https://www.saucedemo.com/
+2. Enter `standard user` in the Username field.
+3. Enter `secret_sauce` in the Password field.
+4. Click the **Login** button.
+5. Verify that an error message is displayed and the user remains on the Login page.
+
+### Expected Result
+The application should reject the unregistered username and display an appropriate error message.
+
+### Actual Result
+The application displayed the message:
+
+`Epic sadface: Username and password do not match any user in this service`
+
+The user remained on the Login page.
+
+### Status
+**Passed**
