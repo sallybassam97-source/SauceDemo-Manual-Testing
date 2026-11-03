@@ -282,8 +282,8 @@ The password was displayed as masked characters (dots).
 
 | Field | Details |
 |---|---|
-| Test Case ID | TC-LOGIN-11 |
-| Scenario ID | TS-LOGIN-11 |
+| Test Case ID | TC-LOGIN-10 |
+| Scenario ID | TS-LOGIN-10 |
 | Preconditions | User is on the SauceDemo Login page. |
 | Test Data – Username | `locked_out_user` |
 | Test Data – Password | `secret_sauce` |
