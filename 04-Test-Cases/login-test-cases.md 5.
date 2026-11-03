@@ -1,0 +1,27 @@
+# SauceDemo – Login Test Cases
+
+## TC-LOGIN-01 – Login Using Valid Credentials
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC-LOGIN-01 |
+| Scenario ID | TS-LOGIN-01 |
+| Preconditions | User is on the SauceDemo Login page. |
+| Test Data – Username | `standard_user` |
+| Test Data – Password | `secret_sauce` |
+
+### Test Steps
+1. Navigate to https://www.saucedemo.com/
+2. Enter a valid username (`standard_user`).
+3. Enter a valid password (`secret_sauce`).
+4. Click the **Login** button.
+5. Verify that the user is redirected to the Products page.
+
+### Expected Result
+The user should be successfully redirected to the Products page.
+
+### Actual Result
+The user was successfully redirected to the Products page.
+
+### Status
+**Passed**
