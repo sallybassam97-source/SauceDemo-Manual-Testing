@@ -249,3 +249,29 @@ The user remained on the Login page.
 
 ### Status
 **Passed**
+
+---
+
+## TC-LOGIN-09 – Verify Password Masking
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC-LOGIN-09 |
+| Scenario ID | TS-LOGIN-09 |
+| Preconditions | User is on the SauceDemo Login page. |
+| Test Data – Password | `secret_sauce` |
+
+### Test Steps
+1. Navigate to https://www.saucedemo.com/
+2. Click on the Password field.
+3. Enter `secret_sauce`.
+4. Observe how the password is displayed in the field.
+
+### Expected Result
+The password should be displayed as masked characters instead of readable text.
+
+### Actual Result
+The password was displayed as masked characters (dots).
+
+### Status
+**Passed**
