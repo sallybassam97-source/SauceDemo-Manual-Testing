@@ -57,3 +57,35 @@ The user remained on the Login page.
 
 ### Status
 **Passed**
+
+---
+
+## TC-LOGIN-03 – Login with Invalid Username and Valid Password
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC-LOGIN-03 |
+| Scenario ID | TS-LOGIN-03 |
+| Preconditions | User is on the SauceDemo Login page. |
+| Test Data – Username | `wrong_user` |
+| Test Data – Password | `secret_sauce` |
+
+### Test Steps
+1. Navigate to https://www.saucedemo.com/
+2. Enter an invalid username (`wrong_user`).
+3. Enter a valid password (`secret_sauce`).
+4. Click the **Login** button.
+5. Verify that an error message is displayed and the user remains on the Login page.
+
+### Expected Result
+The application should display an appropriate error message, and the user should remain on the Login page.
+
+### Actual Result
+The application displayed the following error message:
+
+`Epic sadface: Username and password do not match any user in this service`
+
+The user remained on the Login page.
+
+### Status
+**Passed**
