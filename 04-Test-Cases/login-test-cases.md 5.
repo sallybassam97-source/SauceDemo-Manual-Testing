@@ -275,3 +275,35 @@ The password was displayed as masked characters (dots).
 
 ### Status
 **Passed**
+
+---
+
+## TC-LOGIN-11 – Login Using a Locked-Out User
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC-LOGIN-11 |
+| Scenario ID | TS-LOGIN-11 |
+| Preconditions | User is on the SauceDemo Login page. |
+| Test Data – Username | `locked_out_user` |
+| Test Data – Password | `secret_sauce` |
+
+### Test Steps
+1. Navigate to https://www.saucedemo.com/
+2. Enter `locked_out_user` in the Username field.
+3. Enter `secret_sauce` in the Password field.
+4. Click the **Login** button.
+5. Verify that a locked-out error message is displayed and the user remains on the Login page.
+
+### Expected Result
+The application should prevent login and display an appropriate locked-out error message.
+
+### Actual Result
+The application displayed the message:
+
+`Epic sadface: Sorry, this user has been locked out.`
+
+The user remained on the Login page.
+
+### Status
+**Passed**
