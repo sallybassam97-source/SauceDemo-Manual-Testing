@@ -1,0 +1,115 @@
+# SauceDemo – Manual Testing Test Plan
+
+## 1. Project Overview
+
+**Project Name:** SauceDemo Manual Testing  
+**Application:** SauceDemo  
+**Testing Type:** Manual Testing  
+**Testing Approach:** Functional Testing  
+**Prepared By:** QA Tester  
+**Status:** Planned
+
+This project aims to evaluate the functionality and behavior of the SauceDemo web application through manual testing.
+
+## 2. Test Objectives
+
+The main objectives of this testing project are:
+
+- Verify that users can log in using valid credentials.
+- Validate product listing and product details functionality.
+- Verify shopping cart operations.
+- Validate product sorting functionality.
+- Test checkout functionality and form validation.
+- Identify and document any defects found during testing.
+- Ensure that the application's main user flows work as expected.
+
+## 3. Scope of Testing
+
+The following features are included in the testing scope:
+
+- User Login
+- Product Listing
+- Product Details
+- Product Sorting
+- Add to Cart
+- Remove from Cart
+- Shopping Cart
+- Continue Shopping
+- Checkout Process
+- Checkout Form Validation
+
+## 4. Out of Scope
+
+The following areas are excluded from this testing project:
+
+- Payment Gateway Integration
+- Security and Penetration Testing
+- Performance and Load Testing
+- Backend and Database Testing
+- Cross-Browser Compatibility Testing
+- Mobile Application Testing
+
+## 5. Testing Types
+
+The following testing types will be performed:
+
+- **Functional Testing:** To verify that application features work according to their expected behavior.
+- **Positive Testing:** To validate the application using valid inputs and expected user actions.
+- **Negative Testing:** To verify how the application handles invalid inputs and unexpected user actions.
+- **UI Testing:** To check the visual elements and basic interface behavior.
+- **Validation Testing:** To verify required fields and input validation messages.
+- **Regression Testing:** To ensure that previously working features remain functional after changes or fixes.
+
+## 6. Test Environment
+
+| Component | Details |
+|---|---|
+| Application | SauceDemo |
+| Browser | Google Chrome |
+| Operating System | Windows 11 |
+| Testing Type | Manual |
+| Testing Environment | Web Application |
+| Browser Version | Not recorded |
+
+## 7. Entry Criteria
+
+Testing can begin when:
+
+- The application is accessible.
+- Valid test credentials are available.
+- The test environment is ready.
+- Test scenarios and test cases have been prepared.
+
+## 8. Exit Criteria
+
+Testing will be considered complete when:
+
+- All planned test cases have been executed.
+- Test results have been documented.
+- Identified defects have been reported.
+- Retesting and regression testing have been completed where applicable.
+- A final test summary report has been prepared.
+
+## 9. Test Deliverables
+
+The following deliverables will be maintained throughout the project:
+
+- Test Plan
+- Test Scenarios
+- Test Cases
+- Bug Reports
+- Test Execution Report
+- Test Summary Report
+- Supporting Screenshots and Evidence
+
+## 10. Risks and Assumptions
+
+- Testing depends on the availability of the SauceDemo application.
+- Application behavior may change over time.
+- The project uses a publicly available demo application.
+- Testing is limited to the features accessible through the selected test environment.
+
+---
+
+**Document:** SauceDemo Manual Testing Test Plan  
+**Version:** 1.0
