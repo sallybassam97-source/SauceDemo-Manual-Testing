@@ -153,3 +153,35 @@ The user remained on the Login page.
 
 ### Status
 **Passed**
+
+---
+
+## TC-LOGIN-06 – Login with Empty Username and Valid Password
+
+| Field | Details |
+|---|---|
+| Test Case ID | TC-LOGIN-06 |
+| Scenario ID | TS-LOGIN-06 |
+| Preconditions | User is on the SauceDemo Login page. |
+| Test Data – Username | Empty |
+| Test Data – Password | `secret_sauce` |
+
+### Test Steps
+1. Navigate to https://www.saucedemo.com/
+2. Leave the Username field empty.
+3. Enter `secret_sauce` in the Password field.
+4. Click the **Login** button.
+5. Verify that a validation message is displayed.
+
+### Expected Result
+The application should display a validation message indicating that the Username field is required.
+
+### Actual Result
+The application displayed the message:
+
+`Epic sadface: Username is required`
+
+The user remained on the Login page.
+
+### Status
+**Passed**
